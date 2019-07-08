@@ -9,7 +9,11 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class HelloWorldController {
 
-    private RestTemplate restTemplate = new RestTemplate();
+    private final RestTemplate restTemplate;
+
+    public HelloWorldController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
 
     @GetMapping("/api/hello")
     public Greeting sayHello() {
