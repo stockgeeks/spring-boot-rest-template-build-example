@@ -1,6 +1,10 @@
 server:
   port: 8080
 
+spring:
+  application:
+    name: hello-world-service
+
 management:
   endpoints:
     web:
