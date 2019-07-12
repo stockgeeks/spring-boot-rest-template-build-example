@@ -1,6 +1,10 @@
 server:
   port: 8081
 
+spring:
+  application:
+    name: random-name-service
+
 management:
   endpoints:
     web:
