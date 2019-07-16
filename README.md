@@ -2,7 +2,7 @@
 
 Example project that explains why you should always use a RestTemplate builder instead of creating your own RestTemplate instance.
 
-See blogpost: 
+See blogpost: https://medium.com/@TimvanBaarsen/spring-boot-why-you-should-always-use-the-resttemplatebuilder-to-create-a-resttemplate-instance-d5a44ebad9e9
 
 Branches: 
 
